@@ -7,7 +7,7 @@ public class DB_CONNECTION {
 
 	final static String DB_URL = "jdbc:mysql://localhost:3306/student";
 		final static String USER_NAME ="root";
-		final static String USER_PASS = "Praj@007#";
+		final static String USER_PASS = "root";
 		final static String DRIVER = "com.mysql.jdbc.Driver";
 		
 			public static Connection getConn() throws ClassNotFoundException, SQLException
